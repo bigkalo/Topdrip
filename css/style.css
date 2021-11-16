@@ -1,0 +1,58 @@
+/* BASIC */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: #12111b;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: transparent;
+    padding-top: 3em;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar-brand {
+    font-family: Topdrip;
+    font-size: 1.5rem !important;
+    margin: auto;
+}
+
+main {
+    max-width: 414px;
+    margin: auto;
+    padding: 2em;
+}
+
+hr.location {
+    border: 1px solid turquoise;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* CUSTOM FONTS */
+
+.text-cyan {
+    color: turquoise;
+}
+
+.text-location {
+    margin-bottom: 0px !important;
+}
+
+@font-face {
+    font-family: Topdrip;
+    src: url(../fonts/JudasCapsWd.ttf);
+}
