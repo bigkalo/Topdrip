@@ -2,7 +2,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-    background: #12111b;
+    background: #12111b !important;
     color: white;
     scroll-behavior: smooth;
 }
@@ -19,20 +19,16 @@ body {
     width: 100%;
 }
 
-.navbar-toggler {
-    display: none;
-}
-
 .navbar-brand {
     font-family: Topdrip;
     font-size: 1.5rem !important;
-    margin: auto;
 }
 
 main {
     max-width: 414px;
     margin: auto;
     padding: 2em;
+    background: #12111b;
 }
 
 hr.location {
