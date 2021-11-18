@@ -109,11 +109,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="addpost.html">Add Post</a>
+                        <a class="nav-link text-warning" aria-current="page" href="addpost.html">Add Post</a>
                     </li>
 
                     <!--
@@ -128,19 +128,19 @@
     <main>
         <form class="text-white" id="crear" onsubmit="crear(); return false;">
             <div class="form-group">
-                <label for="nombre" class="mb-1"><h5 class="card-title text-white">Caption</h5></label>
+                <label for="nombre" class="mb-1"><h1 class="display-6 text-white">Caption</h1></label>
                 <input type="text" class="form-control" id="nombre" placeholder="" required>
                 <br>
             </div>
             <div class="form-group">
-                <label for="img" class="mb-1"><h5 class="card-title text-white">Photo</h5></label>
+                <label for="img" class="mb-1"><h1 class="display-6 text-white">Photo</h1></label>
                 <div class="custom-file">
                     <input type="file" class="custom-file-input" id="img" accept=".jpg, .jpeg, .png, .webm" onchange="readFiles(event);">
                     <br>
                     <label class="custom-file-label" for="customFile"></label>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Post</button>
+            <button type="submit" class="btn btn-warning">Post</button>
         </form>
     </main>
 
