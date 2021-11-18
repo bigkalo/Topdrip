@@ -52,6 +52,14 @@ hr.location {
     margin-bottom: 0.5rem;
 }
 
+.video {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* CUSTOM FONTS */
 
