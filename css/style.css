@@ -2,7 +2,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-    background: #12111b !important;
+    background: #000818 !important;
     color: white;
     scroll-behavior: smooth;
 }
@@ -22,13 +22,28 @@ body {
 .navbar-brand {
     font-family: Topdrip;
     font-size: 1.5rem !important;
+    color: #FFCD00 !important;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: #FFCD00 0 0 0 0.1rem !important;
+}
+
+.bg-eu {
+    background-color: #001644;
 }
 
 main {
     max-width: 414px;
     margin: auto;
     padding: 2em;
-    background: #12111b;
+    background: #000818;
 }
 
 hr.location {
