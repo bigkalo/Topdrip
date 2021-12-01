@@ -48,6 +48,7 @@ https://flickity.metafizzy.co
 /* ---- flickity-button ---- */
 
 .flickity-button {
+    display: none;
     position: absolute;
     background: #FFCD00;
     border: none;
