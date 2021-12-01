@@ -75,3 +75,32 @@ a {
     font-family: Topdrip;
     src: url(../fonts/JudasCapsWd.ttf);
 }
+
+
+/* FLICKITY */
+
+.featured-img {
+    width: 100%;
+}
+
+.gallery {
+    background: transparent;
+}
+
+.gallery-cell {
+    width: 90%;
+    max-height: 90vw;
+    margin-right: 10px;
+    background: transparent;
+    counter-increment: gallery-cell;
+    overflow: hidden;
+}
+
+.new-feed {
+    width: 90%;
+}
+
+.card-img-top {
+    max-height: 90vw !important;
+    overflow: hidden !important;
+}
