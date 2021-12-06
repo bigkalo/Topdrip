@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>C:\Users\Sean\Documents\ForkGit\Topdrip\TopdripDashboard.jar</jar>
-  <outfile>C:\Users\Sean\Documents\ForkGit\Topdrip\TopdripDashboard.exe</outfile>
+  <outfile>C:\Users\Sean\Documents\ForkGit\Topdrip\generateCardsInHTML.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
