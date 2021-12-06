@@ -89,7 +89,6 @@ a {
 
 .gallery-cell {
     width: 90%;
-    max-height: 90vw;
     margin-right: 10px;
     background: transparent;
     counter-increment: gallery-cell;

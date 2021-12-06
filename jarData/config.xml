@@ -2,15 +2,15 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>C:\Users\Sean\Documents\ForkGit\Topdrip\TopdripCardGen.jar</jar>
-  <outfile>C:\Users\Sean\Documents\ForkGit\Topdrip\TopdripCardGen.exe</outfile>
+  <jar>C:\Users\Sean\Documents\ForkGit\Topdrip\TopdripDashboard.jar</jar>
+  <outfile>C:\Users\Sean\Documents\ForkGit\Topdrip\TopdripDashboard.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
   <priority>normal</priority>
   <downloadUrl>http://java.com/download</downloadUrl>
   <supportUrl></supportUrl>
-  <stayAlive>true</stayAlive>
+  <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
   <icon></icon>
